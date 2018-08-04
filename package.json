@@ -1,0 +1,32 @@
+{
+  "name": "zconfig",
+  "version": "0.0.1",
+  "description": "zouhuigang zconfig",
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "zconfig": {
+        "tongji_types": "baidu",
+        "tongji_token": "1dedb1e6d78902e7ab2b878cdd28171d",
+        "gitbook_show": "close",
+        "gitbook_url": "https://www.anooc.com",
+        "gitbook_name": "本书官网anooc.com"
+      }
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zouhuigang/gitbook-plugin-zconfig"
+  },
+  "keywords": [
+    "zconfig"
+  ],
+  "author": "zouhuigang",
+  "license": "ISC"
+}

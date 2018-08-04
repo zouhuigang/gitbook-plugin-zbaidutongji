@@ -17,6 +17,14 @@ gitbook-plugin-zconfig
 npm install gitbook-plugin-zconfig
 ```
 
+或者在book.json中添加：
+
+	"plugins": [
+            "zconfig",
+        ],
+
+然后gitbook install即可。
+
 在config.js中添加如下配置，token替换为百度统计账号的token
 
 ```
@@ -33,3 +41,7 @@ npm install gitbook-plugin-zconfig
       }
 }
 ```
+
+### gitbook插件编写，发布流程
+
+[https://zouhuigang.anooc.com/post/npm插件编写/](https://zouhuigang.anooc.com/post/npm插件编写/)
